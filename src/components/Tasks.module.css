@@ -1,0 +1,111 @@
+.sectionTask {
+  display: flex;
+  justify-content: center;
+  padding-top: 4.06rem;
+  padding-bottom: 1.5625rem;
+
+}
+
+.bodyTask {
+  display: flex;
+  justify-content: space-between;
+  width: 46rem;
+  width: 100%;
+}
+
+.textCreated {
+
+  color: var(--blue);
+  font-weight: bold;
+  font-size: 0.875rem;
+  color: var(--gray-200);
+}
+
+.textCreated span {
+  width: 24px;
+  height: 19px;
+  border-radius: 999px;
+  background: var(--gray-400);
+  font-weight: bold;
+  font-size: 0.75rem;
+  color: var(--gray-200);
+  margin-left: 8px;
+  padding: 1px 8px;
+}
+
+.textFinished {
+  color: var(--purple);
+  font-size: 0.875rem;
+  font-weight: bold;
+}
+
+.textFinished span {
+  width: 24px;
+  height: 19px;
+  border-radius: 999px;
+  background: var(--gray-400);
+  font-weight: bold;
+  font-size: 0.75rem;
+  color: var(--gray-200);
+  margin-left: 8px;
+  padding: 1px 8px;
+}
+
+.taskSection {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+
+}
+
+
+.todoBar {
+  display: flex;
+  margin-top: calc(0px - 1.5rem - 2px);
+  width: 46rem;
+}
+
+.todoBar input {
+  background: var(--gray-500);
+  width: 100%;
+  border: 0;
+  height: 3.375rem;
+  margin-right: 8px;
+  border-radius: 8px;
+  color: var(--gray-100);
+  padding-left: 1rem;
+}
+
+.todoBar input:focus {
+
+  border: 1px solid var(--purple-dark);
+}
+
+.todoBar input::placeholder {
+  color: var(--gray-300);
+
+}
+
+.todoBar button {
+  background: var(--blue-dark);
+  font-size: 0.875rem;
+  width: 5.625rem;
+  border: none;
+  border-radius: 8px;
+  color: var(--gray-100);
+  line-height: 1.4;
+  font-weight: bold;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+}
+
+.todoBar button:not(:disabled):hover {
+  background: var(--blue);
+}
+
+.todoBar button:disabled {
+  opacity: 0.7;
+  cursor: not-allowed;
+}

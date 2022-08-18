@@ -1,0 +1,33 @@
+.emptyTaskArticle {
+  border-top: 1px solid var(--gray-400);
+  width: 46rem;
+
+}
+
+.emptyTaskFirstSection {
+  padding-top: 3.75rem;
+  display: flex;
+  justify-content: center;
+
+}
+
+.emptyTaskElementSection {
+  display: flex;
+  flex-direction: column;
+}
+
+.emptyTaskElementSection img {
+  height: 3.5rem;
+  padding-bottom: 1rem;
+}
+
+.emptyTaskElementSection p {
+  color: var(--gray-300);
+  font-size: 1rem;
+  font-weight: bold;
+}
+
+.emptyTaskElementSection span {
+  font-weight: 200;
+  color: var(--gray-300);
+}

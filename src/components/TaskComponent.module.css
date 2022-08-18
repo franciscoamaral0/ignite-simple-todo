@@ -1,0 +1,71 @@
+.taskCard {
+  width: 46rem;
+  height: 4.5rem;
+  background: var(--gray-500);
+  display: flex;
+  align-items: center;
+  border-radius: 8px;
+  margin: 0.75rem 0;
+}
+
+.taskDivCenter {
+  display: flex;
+  justify-content: center;
+  padding-left: 1.20rem;
+}
+
+.taskDiv {
+  display: flex;
+  justify-content: space-between;
+  width: 43.5rem;
+
+
+}
+
+.taskInfo {
+  display: flex;
+  justify-content: space-around;
+  align-items: flex-start
+}
+
+.taskInfo p {
+  font-size: 0.875rem;
+  margin-left: 12px;
+  color: var(--gray-100);
+}
+
+.taskInfo span {
+  font-size: 0.875rem;
+  margin-left: 12px;
+  color: var(--gray-300);
+}
+
+.checkIcon {
+  padding: 0 0;
+  color: var(--blue);
+  cursor: pointer;
+}
+
+.checkIcon:hover {
+  color: var(--blue-dark);
+}
+
+.checkDoneIco {
+  color: var(--purple-dark);
+  cursor: pointer;
+}
+
+.checkDoneIco:hover {
+  color: var(--purple);
+}
+
+.trashIcon {
+  padding-right: 1.rem;
+  color: var(--gray-300);
+  cursor: pointer;
+}
+
+.trashIcon:hover {
+  background: var(--gray-400);
+  color: var(--danger);
+}
